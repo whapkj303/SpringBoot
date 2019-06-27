@@ -3,6 +3,12 @@ plugins {
 	id 'java'
 }
 
+bootJar {
+	archivBaseName = '-'
+	archivFileName = '-.jar'
+	archivVersion = "0.0.0"
+}
+
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.example'
